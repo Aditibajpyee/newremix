@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/First.sol": "Bye"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/First.sol": {
+			"keccak256": "0xc641deea5b107cb374900746e76e8a9edb4ac7f7f64baa1926be7970691df506",
+			"urls": [
+				"bzz-raw://7deabb9a6aadcb021e5d32cae0968d7e304fc28c60b8160ee4f0a39ee1b4b624",
+				"dweb:/ipfs/QmYGv7SHTjqR6BV9xCcu8MtKexwASjYkqB5saFXLemrdEM"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Second.sol": "Helloworld"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Second.sol": {
+			"keccak256": "0x1bd09a11af5327b5af0721cef9fd5fb6f4ab9f7286ece19123fc7f254b2917cf",
+			"urls": [
+				"bzz-raw://158f993425dc128949033686ec1deb32e13891fba13c414bebde0fa72e8c9e54",
+				"dweb:/ipfs/QmWcrtkb2QMX4tJQb5HgBBwQhB7c3EynBDuGkg7wJZkJXT"
+			]
+		}
+	},
+	"version": 1
+}

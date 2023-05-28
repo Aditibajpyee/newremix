@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/First.sol": "Hellowprld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/First.sol": {
+			"keccak256": "0x7ac635951c5b6a12e79c8aa361f25c0d1031c8ca342f1e5ca18ebd73528578b4",
+			"urls": [
+				"bzz-raw://57121ed336d3ecb66e9c824d0f95176569027de7b94d86e031b8fa4dba8c1266",
+				"dweb:/ipfs/QmSLwFZ2Ba8Ts483omveP6Rr3H9eLENvvTKPpAfeTTh4Za"
+			]
+		}
+	},
+	"version": 1
+}
