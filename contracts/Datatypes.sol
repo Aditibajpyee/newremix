@@ -2,6 +2,10 @@
 pragma solidity ^0.8.0;
 
 contract Practice{
+    uint[] arr1;//keeping it open
+    uint[] arr2=[1,2,3];
+    uint[10] arr3;
+    mapping(uint16=>string) abc;
     uint8 a=1;
     int b=1231;
     uint c=45;
@@ -20,5 +24,4 @@ contract Practice{
 
     }
     address myaddress=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
-
 }
