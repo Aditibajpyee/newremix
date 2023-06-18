@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/session33.sol": "Money"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/session33.sol": {
+			"keccak256": "0x7e08c02a01805fc3a134a81337645977135071a9346bbf013637c94cf64b4f4d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://263791be9459a738d2293b11884a10fa3bc6a9b97b2cebcc34e9feb0a895f3de",
+				"dweb:/ipfs/QmVHAh54XX8EF5PB5Mtb9tBBqmhdpVxjgmUHDv3Z1EH47k"
+			]
+		}
+	},
+	"version": 1
+}

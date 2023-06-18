@@ -113,7 +113,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/session3.sol": "SLParticipants"
+			"contracts/session32.sol": "SLParticipants"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -127,12 +127,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/session3.sol": {
-			"keccak256": "0xf6244f9195a923b40fb2ec5bf3012e693ef28df2c65acd94feb12749d05d81ec",
+		"contracts/session32.sol": {
+			"keccak256": "0x9f19d1602707f9dae36173151614b61b87c9b6946a1305964df5e06cf25f64f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3a702c334e217658a3c8bf198397889b2421b708541aa7c71cdadf3b5f724658",
-				"dweb:/ipfs/QmWmBe2mVTT6Qo9iLYgjFGzHWJjqWeXnyr4UzwhnwjmDx7"
+				"bzz-raw://75165c7e08ed17a9b2b23b1c453f5c3ed625489d855c54b839c6f6606f381cc2",
+				"dweb:/ipfs/QmbugpCJJ5UtREKF94U5xzso5WDPpNn9F7L4uc3iBtbDgV"
 			]
 		}
 	},
