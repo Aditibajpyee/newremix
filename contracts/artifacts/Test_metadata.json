@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getmyfavnumber",
+				"name": "addblock",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceofAccount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,12 +34,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_addblock",
+						"type": "address"
 					}
 				],
-				"name": "setmyfavnumber",
+				"name": "setAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mapp.sol": "Test"
+			"contracts/balance.sol": "Test"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/mapp.sol": {
-			"keccak256": "0xee042c23d75186a05667e15ccefbdc7a4cee2a6e8448bb9514123032ef5e90a2",
+		"contracts/balance.sol": {
+			"keccak256": "0xc68042fca203212d3cb9bbf6324f0977155fe7a289a8bedbdc1094bb99b9b939",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f4fd75464d60512d79ea9ba2da4b1b5aee299035a2c508cfcb49b7ddbee6437",
-				"dweb:/ipfs/QmUYwAT4kWoyygQPRjgDiBCEauDtRqDgj4eFuyickx4bAW"
+				"bzz-raw://d725d194c8a14e61bd12c2fa94d19c39becea138b09d11194f3dc2cbd61617e5",
+				"dweb:/ipfs/QmXkSnA7vEoen18ftzaYGVZiD2Ars6Z2PsUj4YgktjKdJ6"
 			]
 		}
 	},
