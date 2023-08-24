@@ -1,0 +1,306 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "productId",
+						"type": "uint256"
+					}
+				],
+				"name": "ProductAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_productId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_productDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_producerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_producerAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_harvestDate",
+						"type": "uint256"
+					}
+				],
+				"name": "addProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "productCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "products",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "productId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "productDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producerAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "harvestDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "distributorName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "distributorAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "prodToDistDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "retailerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "retailerAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "distToRetaDate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_productId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_distributorName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_distributorAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_transferDate",
+						"type": "uint256"
+					}
+				],
+				"name": "transferToDistributor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_productId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_retailerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_retailerAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_transferDate",
+						"type": "uint256"
+					}
+				],
+				"name": "transferToRetailer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_productId",
+						"type": "uint256"
+					}
+				],
+				"name": "viewAssetDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "productId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "productDescription",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "producerName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "producerAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "harvestDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "distributorName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "distributorAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prodToDistDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "retailerName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "retailerAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "distToRetaDate",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct FarmProduct.Product",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/newproject2.sol": "FarmProduct"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/newproject2.sol": {
+			"keccak256": "0xe6265766423d836c6a541e38920fdf17f256395fba797c0ac99fad892b728909",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d72048fd73332fe201afcd9d72a2c95496ef3d445486827ff4599b3e9ddd351",
+				"dweb:/ipfs/Qmc5mh2ZHtFF1hdY2se3ohy71rFdtSFYwpAypgtaprjtCT"
+			]
+		}
+	},
+	"version": 1
+}
